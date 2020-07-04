@@ -1,0 +1,117 @@
+body,html{
+    margin:0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    z-index:20;
+    display:flex;
+    justify-content:space-between;
+    width:93%;
+    height: 0;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    
+}
+.logo{
+    margin:2em;
+    text-align: center;
+ text-transform: uppercase;
+ font-weight: bold;
+}
+nav ul{
+    list-style-type: none;
+    display:flex;
+}
+nav ul li{
+    padding: 1em;
+}
+nav ul li:hover{
+font-weight:600;
+}
+.head{
+    margin-top:5em;
+    background-image:linear-gradient(to right,#6FFFE9,#5BC0BE);
+    height:46em;
+}
+.head h1{
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 0em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 72px;
+    font-family: 'notable';
+}
+.head p{
+    margin-top: 0em;
+    text-align: center;
+}
+.aboutme{
+margin-top: 2em;
+   margin-left: 34em;
+   height:3em;
+   width: 12em;
+   background-color: black;
+   border: none;
+   font-family: 'Oswald';
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+}
+.aboutme:hover{
+    background-image: linear-gradient(to right,#2681db, #F26DF9);
+    color: white;
+}
+.pic img{
+    margin-right: 0em;
+    width:400px;
+    margin-bottom: 0em;
+    padding-left: 0em;
+    align-self: center;
+    padding-left: 32em;
+}
+
+.pic p{
+    margin-top: 20em;
+    text-align: center;
+    margin: 0em;
+    margin-bottom: 3em;
+}
+.feedback{
+    display: flex;
+    background-color:#1d6b69;
+    align-content: center;
+    height: 10em;
+    color: white;
+}
+.feedback h2{
+    margin-top: 3em;
+   text-align: center;
+   margin-left: 15em;
+}
+.inp{
+    margin-left: 4em;
+    height: 2em;
+    margin-top: 7em;
+    width: 15em;
+    font-family: 'Oswald';
+}
+.submit{
+    margin-left:1em ;
+    height: 2.6em;
+    margin-top: 7em;
+    width: 10em;
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+.submit:hover{
+    background-image: linear-gradient(to right,#2681db, #F26DF9);
+    color: black;
+}
